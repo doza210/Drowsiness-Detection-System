@@ -36,13 +36,13 @@ double Filtered_Data[512];
 //extern int startIMUFlag;
 FILE *Data_Text;
 double dataArray[15];
-extern int prevVal, currVal;
-extern int elapsedS, elapsedMS;
-extern int startS, startMS;
-extern int currentS, currentMS;
-extern double timeMS;
-extern int startIMUFlag;
-extern int startCVFlag;
+extern int prevVal, currVal;	// previous and current values
+extern int elapsedS, elapsedMS;	// elapsed time in secs and ms
+extern int startS, startMS;	// starting time in secs and ms
+extern int currentS, currentMS;	// current time in secs and ms
+extern double timeMS;		// time in ms
+extern int startIMUFlag;	// flag for IMU start
+extern int startCVFlag;		// flag for CV start
 
 
 /*
